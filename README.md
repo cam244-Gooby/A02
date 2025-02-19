@@ -23,19 +23,15 @@ Open WebStorm and navigate to File > Settings > Version Control > Git.
 
 Click Test to ensure WebStorm recognizes Git.
 
-If necessary, set the path to the Git executable (git.exe on Windows, /usr/bin/git on macOS/Linux).
-
 Step 4: Create a New Project and Initialize Git
 
 Open WebStorm and select New Project.
 
-Choose a template or start with an empty project.
+start with an empty project.
 
 Open the terminal in WebStorm and initialize Git:
 
 git init
-
-Create a .gitignore file to exclude unnecessary files from version control.
 
 Step 5: Connect to GitHub
 
@@ -56,9 +52,6 @@ In WebStorm’s terminal, add the remote repository:
 git remote add origin https://github.com/yourusername/yourrepository.git
 
 Stage and commit your files:
-Ex.
-git add .
-git commit -m "Initial commit"
 
 Push changes to GitHub:
 
@@ -68,25 +61,13 @@ Step 7: Working with Branches and Merging
 
 Create a new branch:
 
-git branch new-feature
-git checkout new-feature
-
 Make changes, commit, and push:
-Ex.
-git add .
-git commit -m "Feature: Added new functionality"
-git push origin new-feature
 
 Merge the branch into the main branch:
-Ex.
-git checkout main
-git merge new-feature
 
 Resolve any Merge Conflict manually if needed.
 
 Push the merged changes:
-Ex.
-git push origin main
 
 Step 8: Cloning a Repository
 
@@ -96,13 +77,9 @@ Enter the GitHub repository URL and clone it.
 
 Use git pull to fetch the latest changes:
 
-git pull origin main
-
 Step 9: Fetching and Pulling Changes
 
 To fetch the latest changes without merging:
-
-git fetch origin
 
 To fetch and merge changes:
 
