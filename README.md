@@ -1,6 +1,6 @@
 # A02
 
-Part 1: Directions on Using WebStorm
+Directions on Using WebStorm
 
 Step 1: Install WebStorm
 
@@ -29,21 +29,17 @@ Open WebStorm and select New Project.
 
 start with an empty project.
 
-Open the terminal in WebStorm and initialize Git:
-
-git init
+Open the terminal in WebStorm and initialize Git
 
 Step 5: Connect to GitHub
 
 Create a GitHub account at https://github.com.
 
-Generate a personal access token (PAT) from GitHub under Settings > Developer settings > Personal access tokens.
-
 In WebStorm, navigate to File > Settings > Version Control > GitHub.
 
 Add your GitHub account using your username and the generated token.
 
-Step 6: Create a Repository and Make First Commit
+Step 6: Create a Repository
 
 On GitHub, create a new repository.
 
@@ -51,65 +47,45 @@ In WebStorm’s terminal, add the remote repository:
 
 git remote add origin https://github.com/yourusername/yourrepository.git
 
-Stage and commit your files:
+Stage and commit your files
 
-Push changes to GitHub:
+Push changes to GitHub
 
-git push -u origin main
+Step 7:Branches and Merging
 
-Step 7: Working with Branches and Merging
+Create a new branch
 
-Create a new branch:
+Make changes, commit, and push
 
-Make changes, commit, and push:
+Merge the branch into the main branch
 
-Merge the branch into the main branch:
-
-Resolve any Merge Conflict manually if needed.
-
-Push the merged changes:
-
-Step 8: Cloning a Repository
-
-In WebStorm, select Get from VCS.
-
-Enter the GitHub repository URL and clone it.
-
-Use git pull to fetch the latest changes:
-
-Step 9: Fetching and Pulling Changes
-
-To fetch the latest changes without merging:
-
-To fetch and merge changes:
-
-git pull origin main
+Push the merged changes
 
 Part 2: Glossary
 
-Branch: A separate line of development within a repository.
+**Branch**: A separate line of development within a repository.
 
-Clone: A copy of a Git repository stored on a local machine.
+**Clone**: A copy of a Git repository stored on a local machine.
 
-Commit: A recorded snapshot of changes in a repository.
+**Commit**: A recorded snapshot of changes in a repository.
 
-Fetch: The process of retrieving changes from a remote repository without merging them.
+**Fetch**: The process of retrieving changes from a remote repository without merging them.
 
-GIT: A distributed version control system for tracking changes in source code.
+**GIT**: A distributed version control system for tracking changes in source code.
 
-GitHub: A web-based platform for hosting and managing Git repositories.
+**GitHub**: A web-based platform for hosting and managing Git repositories.
 
-Merge: The process of combining changes from different branches.
+**Merge**: The process of combining changes from different branches.
 
-Merge Conflict: A conflict that occurs when changes from different branches affect the same file in incompatible ways.
+**Merge** Conflict: A conflict that occurs when changes from different branches affect the same file in incompatible ways.
 
-Push: Sending committed changes to a remote repository.
+**Push**: Sending committed changes to a remote repository.
 
-Pull: Fetching changes from a remote repository and merging them into the local branch.
+**Pull**: Fetching changes from a remote repository and merging them into the local branch.
 
-Remote: A version of a repository stored on a server, like GitHub.
+**Remote**: A version of a repository stored on a server, like GitHub.
 
-Repository: A storage location for a project's files and version history.
+**Repository**: A storage location for a project's files and version history.
 
 References
 
